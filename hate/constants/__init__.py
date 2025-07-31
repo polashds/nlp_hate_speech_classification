@@ -1,8 +1,5 @@
 import os
-
 from datetime import datetime
-
-
 
 # Common constants
 TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")

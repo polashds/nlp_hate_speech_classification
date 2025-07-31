@@ -1,3 +1,19 @@
+# from hate.logger import logging
+#logging.info("Logger initialized successfully.")
+
+# from hate.exception import CustomException
+# import sys
+# try:
+#     a = 1 / 0
+# except Exception as e:
+#     raise CustomException(e, sys)
+
+# from hate.pipeline.train_pipeline import TrainPipeline
+# train_pipeline = TrainPipeline()
+# train_pipeline.run_pipeline()
+#print("Pipeline executed successfully.")
+
+
 from hate.pipeline.train_pipeline import TrainPipeline
 from fastapi import FastAPI
 import uvicorn

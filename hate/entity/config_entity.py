@@ -2,7 +2,6 @@ from dataclasses import dataclass
 from hate.constants import *
 import os 
 
-
 @dataclass
 class DataIngestionConfig:
     def __init__(self):
