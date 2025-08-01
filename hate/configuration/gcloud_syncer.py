@@ -1,6 +1,5 @@
 import os
 
-
 class GCloudSync:
 
     def sync_folder_to_gcloud(self, gcp_bucket_url, filepath, filename):
